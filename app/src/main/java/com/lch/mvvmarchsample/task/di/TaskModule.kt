@@ -1,6 +1,7 @@
 package com.lch.mvvmarchsample.task.di
 
-import com.lch.mvvmarchsample.task.data.ITaskRepo
+import com.lch.mvvmarchsample.task.di.data.DefaultTaskRepo
+import com.lch.mvvmarchsample.task.domain.ITaskRepo
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

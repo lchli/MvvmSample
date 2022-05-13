@@ -1,4 +1,4 @@
-package com.lch.mvvmarchsample.task.data
+package com.lch.mvvmarchsample.task.domain
 
 data class Task(val taskId:String,val taskName:String,var isCompleted:Boolean=false){
 

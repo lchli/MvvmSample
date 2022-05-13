@@ -1,9 +1,9 @@
-package com.lch.mvvmarchsample.task.di
+package com.lch.mvvmarchsample.task.di.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.lch.mvvmarchsample.task.data.ITaskRepo
-import com.lch.mvvmarchsample.task.data.Task
+import com.lch.mvvmarchsample.task.domain.ITaskRepo
+import com.lch.mvvmarchsample.task.domain.Task
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext

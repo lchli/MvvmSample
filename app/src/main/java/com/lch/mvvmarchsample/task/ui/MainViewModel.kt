@@ -1,8 +1,8 @@
 package com.lch.mvvmarchsample.task.ui
 
 import androidx.lifecycle.*
-import com.lch.mvvmarchsample.task.data.ITaskRepo
-import com.lch.mvvmarchsample.task.data.Task
+import com.lch.mvvmarchsample.task.domain.ITaskRepo
+import com.lch.mvvmarchsample.task.domain.Task
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
